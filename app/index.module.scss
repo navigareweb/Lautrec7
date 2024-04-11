@@ -1,0 +1,35 @@
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .img {
+    width: 100%;
+    display: flex;
+    object-fit: fill;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      font-weight: 600;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .p {
+      text-align: justify;
+    }
+
+    .audio {
+      padding-bottom: 20px;
+    }
+  }
+}
