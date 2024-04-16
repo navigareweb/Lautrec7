@@ -13,7 +13,7 @@ export default function Home() {
       ></Image>
       <div className={styles.description}>
         <h3 className={styles.text}>LE RIRE</h3>
-        <audio controls src="/LE-RIRE.mp3" className={styles.audio}>
+        <audio controls src="/Le-Rire.mp3" className={styles.audio}>
           Your browser does not support the
           <code>audio</code> element.
         </audio>
@@ -27,7 +27,9 @@ export default function Home() {
           painter, Adolphe Willette, drawer and engraver, René Georges
           Hermann-Paul, Juan Gris, later a Cubist painter, Lucien Metivet,
           Georges Meunier, Joaquín Xaudaró, Leonetto Cappiello, Albert
-          Guillaume, Jules Grandjouan, and Jules-Alexandre Grün.
+          Guillaume, Jules Grandjouan, and Jules-Alexandre Grün. The exhibition
+          features the original covers of the magazine on the back of which are
+          Toulouse-Lautrec's illustrations.
         </p>
       </div>
     </main>
